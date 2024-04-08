@@ -1,0 +1,33 @@
+.box1 {
+    background-color: #EEEEEE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 30%;
+}
+
+.box1 h1 {
+    color: #52BA65;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box1 input {
+    padding: 10px;
+    border: gray 1px solid;
+    border-radius: 5px;
+}
+
+.pla::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.box1 button {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #52BA65;
+    border: none;
+    color: white;
+    padding: 15px 120px;
+}
